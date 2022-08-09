@@ -1,0 +1,18 @@
+@media screen and (max-width: 1400px) {
+    .nav-fixed {
+        &__link {
+            padding: 0.5em 0.8em;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .nav-fixed {
+        &__link {
+            padding: 0.5em;
+            font-size: 1.1em;
+        }
+        &__phone {
+            font-size: 1em;
+        }
+    }
+}

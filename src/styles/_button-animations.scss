@@ -1,0 +1,56 @@
+.shiny-btn {
+    position: relative;
+    overflow: hidden;
+}
+.shiny-btn:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    width: 8%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: skewX(-50deg) translateX(-110%);
+    filter: blur(2px);
+    transform-origin: top right;
+    animation: shine 5s infinite;
+    animation-delay: 2s;
+}
+.pulse-btn {
+    animation: pulse 2s infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes shine {
+    0% {
+        transform: skewX(-50deg) translateX(-130%);
+    }
+    50% {
+        transform-origin: left bottom;
+        transform: skewX(-50deg) translateX(1310%);
+    }
+    100% {
+        transform-origin: left bottom;
+        transform: skewX(-50deg) translateX(1310%);
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.95, 0.95);
+    }
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
+}

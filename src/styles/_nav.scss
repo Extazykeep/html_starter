@@ -1,0 +1,46 @@
+.nav-fixed {
+    background: $main_color;
+    border-top: 5px solid $secondary_color;
+    color: $main_text;
+    position: fixed;
+    padding: 15px 0;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    &__logo {
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__links {
+        display: flex;
+    }
+
+    &__link {
+        font-size: 1.2em;
+        padding: 0.5em 1.5em;
+        color: $main_text;
+        &.active {
+            color: $secondary_color;
+        }
+    }
+
+    &__phones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__phone {
+        color: $main_text;
+        font-size: 1.2em;
+        margin-left: 0.5em;
+    }
+}

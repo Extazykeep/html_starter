@@ -1,0 +1,11 @@
+.header {
+    font-size: 2em;
+    font-family: Montserrat, serif;
+    padding: 1rem;
+    color: white;
+    background: #333;
+
+    @media (min-width: 960px) {
+        font-size: 3em;
+    }
+}

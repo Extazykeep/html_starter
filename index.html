@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- Primary Meta Tags -->
+    <title>Магазин садовой техники</title>
+    <meta name="description" content="Купить садовую технику c доставкой по Беларуси.">
+    <link rel="canonical" href="./">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Магазин садовой техники.">
+    <meta property="og:description" content="Купить садовую технику c доставкой по Беларуси.">
+    <meta property="og:image" content="">
+
+    <link href="./dist/bundle.css" rel="stylesheet">
+</head>
+<body>
+
+    <section class="nav-fixed">
+        <div class="container">
+            <nav class="nav-fixed__container">
+                <div class="nav-fixed__logo me-auto">
+                    <img src="./assets/images/Logo.svg" alt="">
+                </div>
+                <div class="nav-fixed__links">
+                    <a href="#section-main" class="nav-fixed__link">Главная</a>
+                    <a href="#section-catalog" class="nav-fixed__link">Каталог</a>
+                    <a href="#section-advantages" class="nav-fixed__link">Преимущества</a>
+                    <a href="#section-waranty" class="nav-fixed__link">Гарантия</a>
+                    <a href="#section-delivery" class="nav-fixed__link">Доставка</a>
+                    <a href="#section-contacts" class="nav-fixed__link">Контакты</a>
+                </div>
+                <div class="nav-fixed__phones">
+                    <div>
+                        <img src="./assets/images/operator/logo_A1_56.png" width="18" height="18" alt="">
+                        <a href="tel:+375290000000" class="nav-fixed__phone">+375 (29) 000-00-00</a>
+                    </div>
+                    <div>
+                        <img src="./assets/images/operator/logo_mts_64.jpg" width="18" height="18" alt="">
+                        <a href="tel:+375290000000" class="nav-fixed__phone">+375 (29) 000-00-00</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section id="section-main" class="py-5" data-observable>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="section-main-content">
+                        <p class="section-main-content__sale">
+                            <span class="secondary-c">37</span> скидка до конца недели
+                        </p>
+                        <h1 class="section-main-content__title">
+                            Бензопилы SHTENLI – эталон немецкого качества с гарантией до 2-х лет
+                        </h1>
+                        <ul class="section-main-content__features">
+                            <li>Бесплатные дополнения</li>
+                            <li>Доставка по рб</li>
+                            <li>Немецкое качество</li>
+                        </ul>
+                        <div class="section-main-content__buttons">
+                            <button class="main-btn shiny-btn pulse-btn" data-bs-toggle="modal" data-bs-target="#modal-order">Получить скидку</button>
+                            <a href="https://youtu.be/JJqXeRFsLjE" target="_blank">
+                                <button class="secondary-btn shiny-btn pulse-btn" >
+                                Видеообзор бензопилы
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="main-image-wrapper">
+                    <img src="./assets/images/main_image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-why-us">
+        <div class="container">
+            
+        </div>
+    </section>
+
+    <section id="section-catalog" data-observable>
+        <div class="container">
+s
+        </div>
+    </section>
+
+    <section id="section-advantages" data-observable>
+        <div class="container">
+s
+        </div>
+    </section>
+
+    <section id="section-waranty" data-observable>
+        <div class="container">
+s
+        </div>
+    </section>
+
+    <section id="section-delivery" data-observable>
+        <div class="container">
+s
+        </div>
+    </section>
+
+    <section id="section-contacts" data-observable>
+        <div class="container">
+s
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal fade" id="modal-order">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close float-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="fs-2 text-center">Оставьте номер телефона</div>
+                    <div class="fs-3 text-center">Менеджер перезвонит Вам в ближайшее время!</div>
+                    <hr>
+                    <div class="fw-bold fs-3">
+                        <a href="tel:+375290000000" class="d-flex justify-content-center align-items-center text-reset">
+                            <img src="./assets/images/operator/logo_A1_56.png" class="img-fluid me-3" alt="A1" width="32">+375 (29) 000-00-00
+                        </a>
+                        <a href="tel:+375330000000" class="d-flex justify-content-center align-items-center text-reset">
+                            <img src="./assets/images/operator/logo_mts_64.jpg" class="img-fluid me-3" alt="mts" width="32">+375 (33) 000-00-00
+                        </a>
+                    </div>
+                    <hr>
+                    <form>
+                        <div class="form-floating">
+                            <input type="text" name="name" class="form-control" id="modal-order-name" placeholder="Ваше имя">
+                            <label for="modal-order-name">Ваше имя</label>
+                        </div>
+                        <div class="form-floating mt-4">
+                            <input type="tel" name="tel" class="form-control" id="modal-order-tel" placeholder="Номер телефона" required>
+                            <label for="modal-order-tel">Номер телефона *</label>
+                        </div>
+                        <button type="submit" class="btn main-btn btn-lg w-100 mt-4 app-ff-alt">Заказать звонок</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
