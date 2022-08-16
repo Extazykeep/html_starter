@@ -11,10 +11,12 @@ import 'animate.css';
 import './styles/style.scss';
 import form from './components/form';
 import componentName from './components/componentName';
+import mobileMenu from './components/mobileMenu';
 import curentNavActive from './components/curentNavActive';
 
 document.addEventListener('DOMContentLoaded', () => {
     form();
     componentName();
     curentNavActive();
+    mobileMenu();
 });

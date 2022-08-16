@@ -16,3 +16,39 @@
         }
     }
 }
+@media screen and (max-width: 992px) {
+    .nav-fixed {
+        &__links {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .nav-fixed {
+        .desktop-logo {
+            display: none;
+        }
+        .mobile-logo {
+            display: block;
+        }
+        &__links {
+            transition: max-height 0.4s;
+            max-height: 0;
+            overflow: hidden;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            align-items: center;
+            width: 100%;
+            background-color: $main_color;
+            font-size: 1.3em;
+            &.active {
+                max-height: 600px;
+                border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+            }
+        }
+    }
+}

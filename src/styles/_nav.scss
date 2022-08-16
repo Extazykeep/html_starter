@@ -14,6 +14,9 @@
             height: auto;
             display: block;
         }
+        .mobile-logo {
+            display: none;
+        }
     }
     &__container {
         display: flex;
@@ -22,6 +25,19 @@
 
     &__links {
         display: flex;
+    }
+    &__burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        span {
+            height: 2px;
+            width: 100%;
+            background-color: $secondary_color;
+        }
     }
 
     &__link {
