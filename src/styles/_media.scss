@@ -31,6 +31,9 @@
         .mobile-logo {
             display: block;
         }
+        &__burger {
+            display: flex;
+        }
         &__links {
             transition: max-height 0.4s;
             max-height: 0;
