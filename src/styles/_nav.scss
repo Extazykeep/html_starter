@@ -37,6 +37,26 @@
             height: 2px;
             width: 100%;
             background-color: $secondary_color;
+            transition: transform 0.3s;
+            &:first-child {
+                transform-origin: right top;
+            }
+            &:last-child {
+                transform-origin: left bottom;
+            }
+        }
+        &.active {
+            span:first-child {
+                transform: rotate(-45deg) translate(5px, 10px);
+                width: 50%;
+            }
+            span:nth-child(2) {
+                transform: rotate(45deg);
+            }
+            span:last-child {
+                width: 50%;
+                transform: rotate(-45deg) translate(6px, 50%);
+            }
         }
     }
 

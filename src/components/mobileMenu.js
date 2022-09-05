@@ -1,17 +1,22 @@
 const mobileMenu = () => {
-    const screenWidth = window.innerWidth;
-    if (screenWidth < 500) {
-        const burgerButton = document.querySelector('.nav-fixed__burger');
-        const navLinksWrapper = document.querySelector('.nav-fixed__links');
-        const navLinks = navLinksWrapper.querySelectorAll('.nav-fixed__link');
-        burgerButton?.addEventListener('click', () => {
-            navLinksWrapper?.classList.toggle('active');
+    const burgerButton = document.querySelector('.nav-fixed__burger');
+    const navLinksWrapper = document.querySelector('.nav-fixed__links');
+    const navLinks = navLinksWrapper.querySelectorAll('.nav-fixed__link');
+    burgerButton.addEventListener('click', () => {
+        navLinksWrapper?.classList.toggle('active');
+        burgerButton?.classList.toggle('active');
+    });
+    for (const link of navLinks) {
+        link.addEventListener('click', () => {
+            if (
+                !navLinksWrapper.classList.contains('active') ||
+                burgerButton.classList.contains('active')
+            ) {
+                return;
+            }
+            navLinksWrapper.classList.remove('active');
+            burgerButton.classList.remove('active');
         });
-        for (const link of navLinks) {
-            link.addEventListener('click', () => {
-                navLinksWrapper.classList.remove('active');
-            });
-        }
     }
 };
 export default mobileMenu;
