@@ -2,6 +2,11 @@ const curentNavActive = () => {
     const navigationMenu = document.querySelector('.nav-fixed');
     const navNodes = navigationMenu.querySelectorAll('.nav-fixed__link');
     const sections = document.querySelectorAll('[data-observable]');
+    const links = {};
+
+    navNodes.forEach((node) => {
+        links[node.getAttribute('href').substring(1)] = node;
+    });
 
     const observer = new IntersectionObserver(observerCallback, {
         rootMargin: `-49.99% 0px`,
@@ -13,14 +18,9 @@ const curentNavActive = () => {
     function observerCallback(entries) {
         entries.forEach((entry) => {
             if (navNodes) {
-                if (entry.isIntersecting) {
-                    navNodes.forEach((link) => {
-                        link.getAttribute('href')?.substring(1) ===
-                        entry.target.id
-                            ? link.classList.add('active')
-                            : link.classList.remove('active');
-                    });
-                }
+                entry.isIntersecting
+                    ? links[entry.target.id].classList.add('active')
+                    : links[entry.target.id].classList.remove('active');
             }
         });
     }

@@ -10,7 +10,7 @@ const mobileMenu = () => {
         link.addEventListener('click', () => {
             if (
                 !navLinksWrapper.classList.contains('active') ||
-                burgerButton.classList.contains('active')
+                !burgerButton.classList.contains('active')
             ) {
                 return;
             }
