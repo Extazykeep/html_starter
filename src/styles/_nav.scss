@@ -1,7 +1,5 @@
 .nav-fixed {
-    background: $main_color;
-    border-top: 5px solid $secondary_color;
-    color: $main_text;
+    background: #fff;
     position: fixed;
     padding: 15px 0;
     width: 100%;
@@ -63,7 +61,6 @@
     &__link {
         font-size: 1.2em;
         padding: 0.5em 1.5em;
-        color: $main_text;
         &.active {
             color: $secondary_color;
         }
