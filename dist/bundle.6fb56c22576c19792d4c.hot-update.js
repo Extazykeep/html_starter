@@ -1,0 +1,22 @@
+self["webpackHotUpdate"]("bundle",{
+
+/***/ "./src/styles/style.scss":
+/*!*******************************!*\
+  !*** ./src/styles/style.scss ***!
+  \*******************************/
+/***/ (function() {
+
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nHookWebpackError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n   ╷\n32 │     font-size: calc($index * 2);\r\n   │                     ^^^^^^\n   ╵\n  src\\styles\\_common.scss 32:21  @import\n  src\\styles\\style.scss 3:9      root stylesheet\n    at tryRunOrWebpackError (C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\HookWebpackError.js:88:9)\n    at __webpack_require_module__ (C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:5055:12)\n    at __webpack_require__ (C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:5012:18)\n    at C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:5083:20\n    at symbolIterator (C:\\user\\20221123_FVED_teplica\\node_modules\\neo-async\\async.js:3485:9)\n    at done (C:\\user\\20221123_FVED_teplica\\node_modules\\neo-async\\async.js:3527:9)\n    at Hook.eval [as callAsync] (eval at create (C:\\user\\20221123_FVED_teplica\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:4990:43\n    at symbolIterator (C:\\user\\20221123_FVED_teplica\\node_modules\\neo-async\\async.js:3482:9)\n    at timesSync (C:\\user\\20221123_FVED_teplica\\node_modules\\neo-async\\async.js:2297:7)\n-- inner error --\nError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: Undefined variable.\n   ╷\n32 │     font-size: calc($index * 2);\r\n   │                     ^^^^^^\n   ╵\n  src\\styles\\_common.scss 32:21  @import\n  src\\styles\\style.scss 3:9      root stylesheet\n    at Object.<anonymous> (C:\\user\\20221123_FVED_teplica\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[1]!C:\\user\\20221123_FVED_teplica\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\user\\20221123_FVED_teplica\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[3]!C:\\user\\20221123_FVED_teplica\\src\\styles\\style.scss:1:7)\n    at C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\javascript\\JavascriptModulesPlugin.js:441:11\n    at Hook.eval [as call] (eval at create (C:\\user\\20221123_FVED_teplica\\node_modules\\tapable\\lib\\HookCodeFactory.js:19:10), <anonymous>:7:1)\n    at C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:5057:39\n    at tryRunOrWebpackError (C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\HookWebpackError.js:83:7)\n    at __webpack_require_module__ (C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:5055:12)\n    at __webpack_require__ (C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:5012:18)\n    at C:\\user\\20221123_FVED_teplica\\node_modules\\webpack\\lib\\Compilation.js:5083:20\n    at symbolIterator (C:\\user\\20221123_FVED_teplica\\node_modules\\neo-async\\async.js:3485:9)\n    at done (C:\\user\\20221123_FVED_teplica\\node_modules\\neo-async\\async.js:3527:9)\n\nGenerated code for C:\\user\\20221123_FVED_teplica\\node_modules\\css-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[1]!C:\\user\\20221123_FVED_teplica\\node_modules\\postcss-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[2]!C:\\user\\20221123_FVED_teplica\\node_modules\\sass-loader\\dist\\cjs.js??ruleSet[1].rules[1].use[3]!C:\\user\\20221123_FVED_teplica\\src\\styles\\style.scss\n1 | throw new Error(\"Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\nSassError: Undefined variable.\\n   ╷\\n32 │     font-size: calc($index * 2);\\r\\n   │                     ^^^^^^\\n   ╵\\n  src\\\\styles\\\\_common.scss 32:21  @import\\n  src\\\\styles\\\\style.scss 3:9      root stylesheet\");");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ !function() {
+/******/ 	__webpack_require__.h = function() { return "348c5aeebab385522b9a"; }
+/******/ }();
+/******/ 
+/******/ }
+);
+//# sourceMappingURL=bundle.6fb56c22576c19792d4c.hot-update.js.map

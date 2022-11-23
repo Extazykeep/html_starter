@@ -15164,7 +15164,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ffdd59;
+  color: #aa64ba;
 }
 
 body {
@@ -15172,23 +15172,23 @@ body {
 }
 
 .main-btn {
-  color: #337ab7;
+  color: #88c425;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  background-color: #ffdd59;
-  border: 2px solid #ffdd59;
+  background-color: #aa64ba;
+  border: 2px solid #aa64ba;
 }
 
 .secondary-btn {
   background-color: transparent;
-  border: 2px solid #ffdd59;
+  border: 2px solid #aa64ba;
   color: #000;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
 }
 
 .secondary-c {
-  color: #ffdd59;
+  color: #aa64ba;
 }
 
 .section-title {
@@ -15196,7 +15196,7 @@ body {
   color: #000;
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
-  font-size: calc((1vw + 1vh) * 2);
+  font-size: calc(1.4em + 0.7vw);
 }
 
 .nav-fixed {
@@ -15234,7 +15234,7 @@ body {
 .nav-fixed__burger span {
   height: 2px;
   width: 100%;
-  background-color: #ffdd59;
+  background-color: #aa64ba;
   transition: all 0.3s;
 }
 .nav-fixed__burger span:first-child {
@@ -15259,7 +15259,7 @@ body {
   padding: 0.5em 1.5em;
 }
 .nav-fixed__link.active {
-  color: #ffdd59;
+  color: #aa64ba;
 }
 .nav-fixed__phones {
   display: flex;
@@ -15272,7 +15272,7 @@ body {
 }
 
 #main {
-  background-color: #337ab7;
+  background-color: #88c425;
   padding: 30px 0;
   overflow: hidden;
 }
@@ -15306,7 +15306,7 @@ body {
   margin-left: 30px;
 }
 #main .section-main-content__features li:not(:first-child)::marker {
-  color: #ffdd59;
+  color: #aa64ba;
 }
 #main .section-main-content__buttons button {
   padding: 10px;
@@ -15471,7 +15471,7 @@ body {
     top: 100%;
     align-items: center;
     width: 100%;
-    background-color: #337ab7;
+    background-color: #88c425;
     font-size: 1.3em;
   }
   .nav-fixed__links.active {

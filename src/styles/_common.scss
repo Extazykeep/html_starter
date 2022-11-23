@@ -29,5 +29,5 @@ body {
     color: $main_text;
     font-weight: 800;
     font-family: 'Montserrat', sans-serif;
-    font-size: calc($index * 2);
+    font-size: calc(1.4em + 0.7vw);
 }
