@@ -15140,24 +15140,10 @@ textarea.form-control-lg {
   font-display: swap;
 }
 @font-face {
-  font-family: "Raleway";
+  font-family: "Gothampro";
   font-style: normal;
   font-weight: 700;
-  src: url(assets/fonts/Raleway-Bold.ttf) format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 800;
-  src: url(assets/fonts/Montserrat-ExtraBold.ttf) format("truetype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 900;
-  src: url(assets/fonts/Montserrat-Black.ttf) format("truetype");
+  src: url(assets/fonts/Gothampro-Bold.ttf) format("truetype");
   font-display: swap;
 }
 a {
@@ -15167,24 +15153,40 @@ a:hover {
   color: #aa64ba;
 }
 
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
 body {
   padding-top: 93px;
+  font-family: "Raleway", sans-serif;
 }
 
 .main-btn {
-  color: #88c425;
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
-  background-color: #aa64ba;
-  border: 2px solid #aa64ba;
+  background-color: #88c425;
+  border: none;
+  color: #fff;
+  transition: box-shadow 0.3s;
+}
+.main-btn:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
 }
 
 .secondary-btn {
   background-color: transparent;
   border: 2px solid #aa64ba;
   color: #000;
-  font-family: "Raleway", sans-serif;
   font-weight: 500;
+}
+
+.main-c {
+  color: #88c425;
 }
 
 .secondary-c {
@@ -15194,8 +15196,8 @@ body {
 .section-title {
   text-align: center;
   color: #000;
-  font-weight: 800;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Gothampro", sans-serif;
+  font-weight: 700;
   font-size: calc(1.4em + 0.7vw);
 }
 
